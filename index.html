@@ -559,8 +559,37 @@
                             send me a message!</p>
                     </div>
                     <div class="contact-wrapper">
-                        <form id="contactform" class="form-wrapper" action="https://formspree.io/f/xayajvbo"
-  method="POST" autocomplete="off"> <input type="text"
+                        <form id="contactform" class="form-wrapper" action="https://formspree.io/f/xayajvbo" method="POST" >
+                         
+                            <div class="input-wrapper"> 
+                                <label for="name" class="input-label">Your email:</label> 
+                                <input type="email" name="_replyto" class="contact-input" id="_replyto" required> 
+                            </div>
+                            
+                            <div class="input-wrapper"> 
+                                <label for="message" class="input-label"
+                                    id="message-label">Your message:</label> 
+                                <textarea name="message" class="contact-input autoExpand" name="message" id="message" required>
+                                </textarea> 
+                            </div>
+                            <buttontype="submit" name="submit" class="message-btn"> 
+                                <span>Send Message</span> 
+                             </button>
+                            <!--  <label>
+                            Your email:
+                            <input type="email" name="_replyto">
+                          </label> -->
+                        <!-- <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                          </label> -->
+
+                          <!-- your other form fields go here -->
+
+                        <!-- <button type="submit">Send</button> -->
+                        </form>
+                     <!-- <form id="contactform" class="form-wrapper" action="https://formspree.io/f/xayajvbo"
+                        method="POST" autocomplete="off"> <input type="text"
                                 name="_gotcha" style="display:none">
                             <div class="input-wrapper"> <label for="name" class="input-label">Name</label> <input
                                     type="text" name="name" class="contact-input" id="name" required> </div>
@@ -572,7 +601,7 @@
                                     id="message-label">Message</label> <textarea name="message"
                                     class="contact-input autoExpand" id="message" required></textarea> </div> <button
                                 type="submit" name="submit" class="message-btn"> <span>Send Message</span> </button>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
